@@ -66,7 +66,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <h5 class="mb-4">CIPTAMEDIANUSA</h5>
+                    <h5 class="mb-4" style="color: var(--primary-color); font-weight: 700;">CIPTAMEDIANUSA</h5>
                     <p>Menyediakan solusi digital terbaik untuk kebutuhan bisnis Anda. Kami berkomitmen untuk memberikan
                         layanan berkualitas tinggi dengan pendekatan yang inovatif.</p>
                     <div class="social-icons mt-3">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4">Layanan</h5>
+                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Layanan</h5>
                     <ul class="list-unstyled footer-links">
                         <li class="mb-2"><a href="#">Web Development</a></li>
                         <li class="mb-2"><a href="#">Mobile Apps</a></li>
@@ -86,7 +86,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4">Perusahaan</h5>
+                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Perusahaan</h5>
                     <ul class="list-unstyled footer-links">
                         <li class="mb-2"><a href="#">Tentang Kami</a></li>
                         <li class="mb-2"><a href="#">Tim Kami</a></li>
@@ -95,21 +95,26 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <h5 class="mb-4">Kontak Kami</h5>
-                    <p><i class="fas fa-map-marker-alt me-2"></i> Jl. Contoh No. 123, Jakarta, Indonesia</p>
-                    <p><i class="fas fa-phone me-2"></i> +62 123 4567 890</p>
-                    <p><i class="fas fa-envelope me-2"></i> info@ciptamedianusa.com</p>
+                    <h5 class="mb-4" style="color: var(--tertiary-color); font-weight: 700;">Kontak Kami</h5>
+                    <p><i class="fas fa-map-marker-alt me-2" style="color: var(--primary-color);"></i> Jl. Contoh No.
+                        123, Jakarta, Indonesia</p>
+                    <p><i class="fas fa-phone me-2" style="color: var(--primary-color);"></i> +62 123 4567 890</p>
+                    <p><i class="fas fa-envelope me-2" style="color: var(--primary-color);"></i> info@ciptamedianusa.com
+                    </p>
                 </div>
             </div>
-            <hr class="mt-4 mb-4" style="background-color: rgba(255,255,255,0.1);">
+            <hr class="mt-4 mb-4"
+                style="background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--tertiary-color) 100%); height: 1px; opacity: 0.2;">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
                     <p class="mb-0">&copy; {{ date('Y') }} Ciptamedianusa. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <p class="mb-0">
-                        <a href="#" class="text-white me-3">Privacy Policy</a>
-                        <a href="#" class="text-white">Terms of Service</a>
+                        <a href="#" class="text-white me-3"
+                            style="text-decoration: none; transition: all 0.3s ease;">Privacy Policy</a>
+                        <a href="#" class="text-white"
+                            style="text-decoration: none; transition: all 0.3s ease;">Terms of Service</a>
                     </p>
                 </div>
             </div>

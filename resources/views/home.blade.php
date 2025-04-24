@@ -28,9 +28,9 @@
     <section class="py-5">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-6">
-                    <h2 class="section-title">Layanan Kami</h2>
-                    <p class="lead">Kami menyediakan berbagai layanan digital untuk memenuhi kebutuhan bisnis Anda</p>
+                <div class="col-lg-12">
+                    <h2 class="section-title">Produk Kami</h2>
+                    <p class="lead">Kami menyediakan berbagai Produk untuk memenuhi kebutuhan bisnis dan rumah Anda</p>
                 </div>
             </div>
             <div class="row">
@@ -39,8 +39,8 @@
                         <div class="service-icon">
                             <i class="fas fa-laptop-code"></i>
                         </div>
-                        <h5 class="card-title">Web Development</h5>
-                        <p class="card-text">Website profesional dengan desain responsif dan performa tinggi.</p>
+                        <h5 class="card-title">Triple Play</h5>
+                        <p class="card-text">Layanan <strong>Internet, TV & Telepon</strong> sekaligus dalam 1 paket.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -48,8 +48,8 @@
                         <div class="service-icon">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <h5 class="card-title">Mobile Apps</h5>
-                        <p class="card-text">Aplikasi mobile yang intuitif untuk Android dan iOS.</p>
+                        <h5 class="card-title">Internet</h5>
+                        <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -57,8 +57,8 @@
                         <div class="service-icon">
                             <i class="fas fa-paint-brush"></i>
                         </div>
-                        <h5 class="card-title">UI/UX Design</h5>
-                        <p class="card-text">Desain antarmuka yang menarik dan pengalaman pengguna yang optimal.</p>
+                        <h5 class="card-title">TV</h5>
+                        <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -66,13 +66,13 @@
                         <div class="service-icon">
                             <i class="fas fa-chart-line"></i>
                         </div>
-                        <h5 class="card-title">Digital Marketing</h5>
-                        <p class="card-text">Strategi pemasaran digital untuk meningkatkan visibilitas bisnis Anda.</p>
+                        <h5 class="card-title">Telepon</h5>
+                        <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-4">
-                <a href="{{ url('/product') }}" class="btn btn-outline-primary px-4 py-2">Lihat Semua Layanan</a>
+                <a href="{{ url('/product') }}" class="btn btn-outline-primary px-4 py-2">Lihat Semua Produk</a>
             </div>
         </div>
     </section>
@@ -203,27 +203,14 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-5 bg-dark text-white">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="fw-bold">Siap untuk mengembangkan bisnis Anda?</h2>
-                    <p class="lead mb-0">Konsultasikan kebutuhan digital Anda dengan tim ahli kami.</p>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a href="{{ url('/bantuan') }}" class="btn btn-light px-4 py-2">Hubungi Kami</a>
-                    <a href="{{ url('/berlangganan') }}" class="btn btn-outline-light px-4 py-2 ms-2">Berlangganan</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('footer.cta')
 
     <script>
         // Array of images
         const images = [
             "{{ asset('ciputra-pict/ciputra-scenery-1.png') }}",
             "{{ asset('ciputra-pict/ciputra-scenery-2.jpeg') }}",
-            // "{{ asset('ciputra-pict/ciputra-scenery-3.png') }}",
+            "{{ asset('ciputra-pict/ciputra-scenery-3.jpeg') }}",
             // "{{ asset('ciputra-pict/ciputra-scenery-4.png') }}"
         ];
 

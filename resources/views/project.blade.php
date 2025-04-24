@@ -245,19 +245,7 @@
     <!-- Additional Project Modals (3-6) would be similar to the above -->
 
     <!-- CTA Section -->
-    <section class="py-5 bg-dark text-white">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="fw-bold">Tertarik untuk bekerja sama?</h2>
-                    <p class="lead mb-0">Diskusikan project Anda dengan tim ahli kami.</p>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a href="{{ url('/bantuan') }}" class="btn btn-light px-4 py-2">Hubungi Kami</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('footer.cta')
 
     <!-- JavaScript for Project Filtering -->
     <script>
