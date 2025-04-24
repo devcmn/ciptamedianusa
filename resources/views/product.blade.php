@@ -100,10 +100,7 @@
                     <ul class="list-unstyled mb-4">
                         <li class="mb-2"><i class="fas fa-check me-2 text-primary"></i> Search Engine Optimization (SEO)
                         </li>
-                        <li class="mb-2"><i
-                                class="fas fa  Search Engine Optimization (SEO)</li>
-                    <li class="mb-2"><i
-                                    class="fas fa-check me-2 text-primary"></i> Social Media Marketing</li>
+                        <li class="mb-2"><i class="fas fa-check me-2 text-primary"></i> Social Media Marketing</li>
                         <li class="mb-2"><i class="fas fa-check me-2 text-primary"></i> Content Marketing</li>
                         <li class="mb-2"><i class="fas fa-check me-2 text-primary"></i> Email Marketing</li>
                         <li class="mb-2"><i class="fas fa-check me-2 text-primary"></i> Pay-Per-Click (PPC) Advertising
@@ -144,7 +141,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-title text-center">Paket Layanan</h2>
+                    <h2 class="section-title">Paket Layanan</h2>
                     <p class="lead">Pilih paket layanan yang sesuai dengan kebutuhan bisnis Anda</p>
                 </div>
             </div>

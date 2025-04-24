@@ -8,17 +8,17 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <h1 class="display-4 fw-bold mb-4">Solusi Digital Terbaik untuk Bisnis Anda</h1>
-                    <p class="lead mb-4">Ciptamedianusa menyediakan layanan digital berkualitas tinggi untuk membantu bisnis
-                        Anda tumbuh dan berkembang di era digital.</p>
+                    <h1 class="display-4 fw-bold mb-4">Solusi Digital Terbaik untuk Anda</h1>
+                    <p class="lead mb-4">Menyediakan layanan telekomunikasi dan digital yang handal untuk rumah, kantor, dan
+                        tempat usaha.</p>
                     <div class="d-flex flex-wrap gap-2">
-                        <a href="{{ url('/layanan') }}" class="btn btn-primary px-4 py-2">Layanan Kami</a>
+                        <a href="{{ url('/product') }}" class="btn btn-primary px-4 py-2">Produk Kami</a>
                         <a href="{{ url('/bantuan') }}" class="btn btn-outline-primary px-4 py-2">Hubungi Kami</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600x400" alt="Ciptamedianusa Digital Solutions"
-                        class="img-fluid rounded shadow">
+                    <img id="sceneryImage" src="{{ asset('ciputra-pict/ciputra-scenery-1.png') }}"
+                        alt="Ciptamedianusa Digital Solutions" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="text-center mt-4">
-                <a href="{{ url('/layanan') }}" class="btn btn-outline-primary px-4 py-2">Lihat Semua Layanan</a>
+                <a href="{{ url('/product') }}" class="btn btn-outline-primary px-4 py-2">Lihat Semua Layanan</a>
             </div>
         </div>
     </section>
@@ -217,4 +217,33 @@
             </div>
         </div>
     </section>
+
+    <script>
+        // Array of images
+        const images = [
+            "{{ asset('ciputra-pict/ciputra-scenery-1.png') }}",
+            "{{ asset('ciputra-pict/ciputra-scenery-2.jpeg') }}",
+            // "{{ asset('ciputra-pict/ciputra-scenery-3.png') }}",
+            // "{{ asset('ciputra-pict/ciputra-scenery-4.png') }}"
+        ];
+
+        let currentIndex = 0;
+
+        // Function to change image with fade effect
+        function changeImage() {
+            const imageElement = document.getElementById('sceneryImage');
+            imageElement.style.opacity = 0; // Fade out
+
+            setTimeout(() => {
+                currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+                imageElement.src = images[currentIndex]; // Update image source
+                imageElement.style.opacity = 1; // Fade in
+            }, 1000); // Wait for 1 second before changing the image
+        }
+
+        // Change the image every 5 seconds
+        setInterval(changeImage, 5000); // Change every 5 seconds
+    </script>
+
+
 @endsection

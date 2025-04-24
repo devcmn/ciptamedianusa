@@ -10,147 +10,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Custom CSS -->
     <style>
-        :root {
-            --primary-color: #000;
-            --secondary-color: #333;
-            --light-color: #f8f9fa;
-            --dark-color: #212529;
-        }
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: var(--dark-color);
-            background-color: #fff;
-        }
-
-        .navbar {
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar-brand {
-            font-weight: 700;
-            color: var(--primary-color);
-        }
-
-        .nav-link {
-            color: var(--dark-color);
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-
-        .nav-link:hover,
-        .nav-link.active {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--primary-color);
-        }
-
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-
-        .btn-outline-primary {
-            color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-
-        .btn-outline-primary:hover {
-            background-color: var(--primary-color);
-            color: white;
-        }
-
-        .hero-section {
-            background-color: var(--light-color);
-            padding: 100px 0;
-        }
-
-        .section-title {
-            position: relative;
-            margin-bottom: 30px;
-            font-weight: 700;
-        }
-
-        .section-title:after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: -10px;
-            width: 50px;
-            height: 3px;
-            background-color: var(--primary-color);
-        }
-
-        .card {
-            border: none;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .service-card,
-        .project-card {
-            margin-bottom: 30px;
-        }
-
-        .service-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
-            color: var(--primary-color);
-        }
-
-        footer {
-            background-color: var(--dark-color);
-            color: white;
-            padding: 50px 0 20px;
-        }
-
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: white;
-        }
-
-        .social-icons a {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            margin-right: 10px;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .social-icons a:hover {
-            background-color: var(--primary-color);
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .hero-section {
-                padding: 60px 0;
-            }
-
-            .section-title {
-                text-align: center;
-            }
-
-            .section-title:after {
-                left: 50%;
-                transform: translateX(-50%);
-            }
-        }
     </style>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -162,7 +22,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">CIPTAMEDIANUSA</a>
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="{{ asset('ciputra-pict/cmn-logo.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
+                CIPTAMEDIANUSA
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -173,8 +36,8 @@
                         <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('layanan') ? 'active' : '' }}"
-                            href="{{ url('/layanan') }}">Layanan</a>
+                        <a class="nav-link {{ request()->is('product') ? 'active' : '' }}"
+                            href="{{ url('/product') }}">Produk</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('project') ? 'active' : '' }}"

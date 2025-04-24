@@ -1,0 +1,195 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #333;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--dark-color);
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color);
+    gap: 10px;
+}
+
+.navbar-logo {
+    height: 30px; /* Smaller size, adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with text */
+    filter: grayscale(100%); /* Black and white effect */
+    filter: grayscale(100%) brightness(80%) contrast(120%); /* Darker black-and-white effect */
+    transition: filter 0.3s ease;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: var(--dark-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-color);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-color);
+    border-color: var(--secondary-color-color);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.hero-section {
+    background-color: var(--light-color);
+    padding: 100px 0;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.section-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 24px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card,
+.project-card {
+    margin-bottom: 30px;
+}
+
+.service-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-right: 10px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color);
+}
+
+/* MOBILE VIEWS - Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .section-title:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-logo {
+        height: 24px; /* Even smaller on mobile */
+    }
+}
+
+#sceneryImage {
+    width: 100%; /* or set a fixed width, e.g., 600px */
+    height: 300px; /* Fixed height to maintain uniformity */
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 1s ease, transform 0.3s ease;
+}
+
+#sceneryImage:hover {
+    transform: scale(1.01); /* Zoom in slightly on hover */
+    opacity: 0.8; /* Slightly fade the image when hovered */
+}
