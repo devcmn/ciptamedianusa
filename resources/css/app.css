@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ff7e33; /* Vibrant orange */
-    --primary-hover: #e86a1f; /* Darker orange for hover states */
+    --primary-hover: #ef7027; /* Darker orange for hover states */
     --secondary-color: #4a9fd8; /* Soft blue */
     --tertiary-color: #4ebe8b; /* Subtle green */
     --light-color: #fef8f3; /* Warm light with orange tint */
@@ -33,6 +33,10 @@ body {
     font-weight: 700;
     color: var(--primary-color);
     gap: 10px;
+}
+
+.navbar-brand:hover {
+    color: var(--primary-hover);
 }
 
 .navbar-logo {
