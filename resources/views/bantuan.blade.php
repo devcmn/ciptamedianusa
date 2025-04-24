@@ -241,8 +241,9 @@
                             <!-- Replace with actual Google Maps embed code -->
                             <div class="ratio ratio-16x9">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6664463015!2d106.82496231476884!3d-6.175392395529647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1650123456789!5m2!1sen!2sid"
-                                    allowfullscreen="" loading="lazy"></iframe>
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.685421436385!2d106.72768317469632!3d-6.172856193814484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3fc1493a4bd%3A0x49120a6f50ac01eb!2sPT%20Ciptakom%20Media%20Nusa!5e0!3m2!1sen!2sid!4v1745487592736!5m2!1sen!2sid"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
