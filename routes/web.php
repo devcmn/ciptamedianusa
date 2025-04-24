@@ -14,19 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.home');
 });
 Route::get('/product', function () {
-    return view('product');
+    return view('pages.product');
 });
 Route::get('/project', function () {
-    return view('project');
+    return view('pages.project');
 });
 Route::get('/berlanggan', function () {
-    return view('berlanggan');
+    return view('pages.berlanggan');
 });
 Route::get('/bantuan', function () {
-    return view('bantuan');
+    return view('pages.bantuan');
 });
 
 Route::fallback(function () {
