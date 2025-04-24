@@ -28,3 +28,7 @@ Route::get('/berlanggan', function () {
 Route::get('/bantuan', function () {
     return view('bantuan');
 });
+
+Route::fallback(function () {
+    return response()->view('errors.404', [], 404);
+});
