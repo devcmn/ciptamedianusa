@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,21 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
-Route::get('/product', function () {
-    return view('pages.product');
-});
-Route::get('/project', function () {
-    return view('pages.project');
-});
-Route::get('/berlanggan', function () {
-    return view('pages.berlanggan');
-});
-Route::get('/bantuan', function () {
-    return view('pages.bantuan');
-});
+Route::get('/', [PagesController::class, 'home']);
+Route::get('/product', [PagesController::class, 'product']);
+Route::get('/project', [PagesController::class, 'project']);
+Route::get('/berlanggan', [PagesController::class, 'berlanggan']);
+Route::get('/bantuan', [PagesController::class, 'bantuan']);
+
 
 Route::fallback(function () {
     return response()->view('errors.404', [], 404);
