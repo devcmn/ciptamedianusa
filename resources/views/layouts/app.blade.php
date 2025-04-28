@@ -65,7 +65,8 @@
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <h5 class="mb-4" style="color: var(--primary-color); font-weight: 700;">CIPTAMEDIANUSA</h5>
-                    <p>Menyediakan solusi digital terbaik untuk kebutuhan bisnis Anda. Kami berkomitmen untuk memberikan
+                    <p>Menyediakan solusi digital terbaik untuk kebutuhan rumah dan bisnis Anda. Kami berkomitmen untuk
+                        memberikan
                         layanan berkualitas tinggi dengan pendekatan yang inovatif.</p>
                     <div class="social-icons mt-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -75,28 +76,29 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Layanan</h5>
+                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Product</h5>
                     <ul class="list-unstyled footer-links">
-                        <li class="mb-2"><a href="#">Web Development</a></li>
-                        <li class="mb-2"><a href="#">Mobile Apps</a></li>
-                        <li class="mb-2"><a href="#">UI/UX Design</a></li>
-                        <li class="mb-2"><a href="#">Digital Marketing</a></li>
+                        <li class="mb-2"><a href="#">Product 1</a></li>
+                        <li class="mb-2"><a href="#">Product 2</a></li>
+                        <li class="mb-2"><a href="#">Product 3</a></li>
+                        <li class="mb-2"><a href="#">Product 4</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Perusahaan</h5>
+                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Project</h5>
                     <ul class="list-unstyled footer-links">
-                        <li class="mb-2"><a href="#">Tentang Kami</a></li>
-                        <li class="mb-2"><a href="#">Tim Kami</a></li>
-                        <li class="mb-2"><a href="#">Karir</a></li>
-                        <li class="mb-2"><a href="#">Kontak</a></li>
+                        <li class="mb-2"><a href="#">Project 1</a></li>
+                        <li class="mb-2"><a href="#">Project 2</a></li>
+                        <li class="mb-2"><a href="#">Project 3</a></li>
+                        <li class="mb-2"><a href="#">Project 4</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <h5 class="mb-4" style="color: var(--tertiary-color); font-weight: 700;">Kontak Kami</h5>
-                    <p><i class="fas fa-map-marker-alt me-2" style="color: var(--primary-color);"></i> Jl. Contoh No.
-                        123, Jakarta, Indonesia</p>
-                    <p><i class="fas fa-phone me-2" style="color: var(--primary-color);"></i> +62 123 4567 890</p>
+                    <p><i class="fas fa-map-marker-alt me-2" style="color: var(--primary-color);"></i> TOKOPEDIA CARE
+                        TOWER, Jl. Lkr. Luar Barat No.1 LT. 10, RT.14/RW.4, Rw. Buaya, Kecamatan Cengkareng, Kota
+                        Jakarta Barat, Daerah Khusus Ibukota Jakarta 11740</p>
+                    <p><i class="fas fa-phone me-2" style="color: var(--primary-color);"></i>(021) 29863888</p>
                     <p><i class="fas fa-envelope me-2" style="color: var(--primary-color);"></i> info@ciptamedianusa.com
                     </p>
                 </div>
@@ -109,10 +111,10 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <p class="mb-0">
-                        <a href="#" class="text-white me-3"
+                        {{-- <a href="#" class="text-white me-3"
                             style="text-decoration: none; transition: all 0.3s ease;">Privacy Policy</a>
                         <a href="#" class="text-white"
-                            style="text-decoration: none; transition: all 0.3s ease;">Terms of Service</a>
+                            style="text-decoration: none; transition: all 0.3s ease;">Terms of Service</a> --}}
                     </p>
                 </div>
             </div>

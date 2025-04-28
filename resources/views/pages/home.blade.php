@@ -15,6 +15,9 @@
     <!-- Projects Preview Section -->
     @include('home.project')
 
+    <!-- ISP Section -->
+    @include('home.isp')
+
     <!-- Testimonials Section -->
     @include('home.testimoni')
 

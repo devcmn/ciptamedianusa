@@ -1,4 +1,4 @@
-<section class="py-5 bg-light">
+<section class="range-search py-5">
     <div class="container">
         <div class="row mb-3">
             <div class="col-lg-6">
