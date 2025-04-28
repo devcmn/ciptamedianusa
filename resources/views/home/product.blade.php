@@ -1,6 +1,6 @@
 <section class="py-5">
     <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-3">
             <div class="col-lg-12">
                 <h2 class="section-title">Produk Kami</h2>
                 <p class="lead">Kami menyediakan berbagai Produk untuk memenuhi kebutuhan bisnis dan rumah Anda</p>
