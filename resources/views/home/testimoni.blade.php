@@ -11,8 +11,8 @@
                 <div class="card h-100 p-4">
                     <div class="d-flex align-items-center mb-4">
                         <div class="small-img-container">
-                            <img src="{{ asset('ciputra-pict/profile-icon.png') }}"
-                                class="rounded-circle me-3 img-fluid" alt="Client 1">
+                            <img src="{{ asset('icon/profile-icon.png') }}" class="rounded-circle me-3 img-fluid"
+                                alt="Client 1">
                         </div>
                         <div>
                             <h5 class="mb-0">Shin Ryujin</h5>
@@ -36,8 +36,8 @@
                 <div class="card h-100 p-4">
                     <div class="d-flex align-items-center mb-4">
                         <div class="small-img-container">
-                            <img src="{{ asset('ciputra-pict/profile-icon.png') }}"
-                                class="rounded-circle me-3 img-fluid" alt="Client 2">
+                            <img src="{{ asset('icon/profile-icon.png') }}" class="rounded-circle me-3 img-fluid"
+                                alt="Client 2">
                         </div>
                         <div>
                             <h5 class="mb-0">Vergil</h5>
@@ -60,8 +60,8 @@
                 <div class="card h-100 p-4">
                     <div class="d-flex align-items-center mb-4">
                         <div class="small-img-container">
-                            <img src="{{ asset('ciputra-pict/profile-icon.png') }}"
-                                class="rounded-circle me-3 img-fluid" alt="Client 3">
+                            <img src="{{ asset('icon/profile-icon.png') }}" class="rounded-circle me-3 img-fluid"
+                                alt="Client 3">
                         </div>
                         <div>
                             <h5 class="mb-0">Dante Sparda</h5>
