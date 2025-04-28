@@ -35,6 +35,21 @@
                         // Enable cluster dropdown when a project is selected
                         $("#cluster-dropdown").prop("disabled", false);
                         $("#status-text").text("Status: Pilih cluster");
+
+                        // Filter clusters based on selected project ID
+                        var filteredClusters = clusters.filter(function(cluster) {
+                            return cluster.project_id == projectId; // Assuming clusters have project_id
+                        });
+
+                        // Clear the current options in the cluster dropdown
+                        $("#cluster-dropdown").empty();
+                        $("#cluster-dropdown").append('<option value="">-- Pilih Cluster --</option>');
+
+                        // Add filtered clusters as options
+                        filteredClusters.forEach(function(cluster) {
+                            $("#cluster-dropdown").append('<option value="' + cluster.id + '">' +
+                                cluster.name + '</option>');
+                        });
                     } else {
                         // Reset when no project is selected
                         $("#cluster-dropdown")
@@ -59,7 +74,11 @@
                         $("#subscribe-button").hide();
                     }
                 });
+
+                // Store clusters globally for filtering
+                var clusters = @json($clusters); // Pass the clusters data from Blade to JavaScript
             });
+
 
             // Array of images
             const images = [

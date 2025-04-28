@@ -24,9 +24,9 @@
                     <label for="cluster-dropdown">Cluster</label>
                     <select id="cluster-dropdown" class="form-control select2" disabled>
                         <option value="">-- Pilih Cluster --</option>
-                        @foreach ($clusters as $cluster)
+                        {{-- @foreach ($clusters as $cluster)
                             <option value="{{ $cluster['id'] }}">{{ $cluster['name'] }}</option>
-                        @endforeach
+                        @endforeach --}}
                     </select>
                 </div>
             </div>
