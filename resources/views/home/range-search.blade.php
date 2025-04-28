@@ -31,13 +31,13 @@
                 </div>
             </div>
         </div>
+
         <div class="availability-status">
             <span id="status-text">Status: Pilih project dan cluster</span>
             <div id="subscribe-button" style="display: none; margin-top: 10px; text-align: center;">
                 <a href="/berlanggan">
                     <button class="subscribe-btn">Berlangganan Sekarang</button>
                 </a>
-
             </div>
         </div>
 
