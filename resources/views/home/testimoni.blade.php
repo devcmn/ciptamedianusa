@@ -19,9 +19,9 @@
                             <p class="text-muted mb-0">CEO, PT Maju Maju</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted">"Ciptamedianusa telah membantu kami mengembangkan website e-commerce
-                        yang
-                        sangat meningkatkan penjualan online kami. Layanan mereka sangat profesional dan tepat waktu."
+                    <p class="card-text text-muted">"Ciptamedianusa telah membantu kami mengembangkan kebutuhan internet
+                        yang sangat meningkatkan kepuasan lokasi kami. Layanan mereka sangat profesional dan tepat
+                        waktu."
                     </p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
@@ -40,13 +40,13 @@
                                 alt="Client 2">
                         </div>
                         <div>
-                            <h5 class="mb-0">Vergil</h5>
+                            <h5 class="mb-0">Go Youn Jung</h5>
                             <p class="text-muted mb-0">Marketing Director, Brand Fashion</p>
                         </div>
                     </div>
                     <p class="card-text text-muted">"Strategi digital marketing yang dirancang oleh tim Ciptamedianusa
                         sangat
-                        efektif dalam meningkatkan brand awareness kami. Sangat merekomendasikan layanan mereka!"</p>
+                        efektif dalam meningkatkan kebutuhan digital kami. Sangat merekomendasikan layanan mereka!"</p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -64,13 +64,13 @@
                                 alt="Client 3">
                         </div>
                         <div>
-                            <h5 class="mb-0">Dante Sparda</h5>
+                            <h5 class="mb-0">Baek Song Min</h5>
                             <p class="text-muted mb-0">Owner, Restoran Nusantara</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted">"Aplikasi mobile yang dikembangkan oleh Ciptamedianusa telah
-                        memudahkan
-                        pelanggan kami dalam memesan makanan. Antarmuka yang intuitif dan performa yang baik!"</p>
+                    <p class="card-text text-muted">"Strategi digital marketing yang dirancang oleh tim Ciptamedianusa
+                        sangat
+                        efektif dalam meningkatkan kebutuhan digital kami. Sangat merekomendasikan layanan mereka!"</p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>

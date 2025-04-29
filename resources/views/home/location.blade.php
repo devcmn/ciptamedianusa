@@ -27,9 +27,8 @@
                 <div class="location-info-card h-100">
                     <div class="card-body">
                         <h3 class="info-title mb-4">Lokasi Kami</h3>
-                        <p class="info-text mb-4">Kami berada di PT Ciptakom Media Nusa, Jakarta Barat. Lokasi strategis
-                            untuk memenuhi kebutuhan layanan digital Anda. Temui kami untuk mendapatkan solusi terbaik
-                            untuk bisnis dan kebutuhan pribadi Anda.</p>
+                        <p class="info-text mb-4">Kami berada di PT Ciptakom Media Nusa, Jakarta Barat. Temui kami untuk
+                            mendapatkan solusi terbaik untuk bisnis dan kebutuhan pribadi Anda.</p>
 
                         <div class="contact-details">
                             <div class="contact-item">
@@ -60,7 +59,7 @@
                                 </div>
                                 <div class="contact-text">
                                     <h5>Email</h5>
-                                    <p>info@ciptamedianusa.com</p>
+                                    <p>helpdesk@ciptamedianusa.net</p>
                                 </div>
                             </div>
 

@@ -7,7 +7,7 @@
             </div>
             <div class="col-lg-4 text-lg-end">
                 <a href="{{ url('/bantuan') }}" class="btn btn-primary cta-btn-primary px-4 py-2">Hubungi Kami</a>
-                <a href="{{ url('/berlangganan') }}"
+                <a href="{{ url('/berlanggan') }}"
                     class="btn btn-outline-primary cta-btn-outline px-4 py-2 ms-2">Berlangganan</a>
             </div>
         </div>

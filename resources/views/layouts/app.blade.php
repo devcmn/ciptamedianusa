@@ -64,18 +64,18 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-6 mb-4">
                     <h5 class="mb-4" style="color: var(--primary-color); font-weight: 700;">CIPTAMEDIANUSA</h5>
                     <p>Menyediakan solusi digital terbaik untuk kebutuhan rumah dan bisnis Anda. Kami berkomitmen untuk
                         memberikan
                         layanan berkualitas tinggi dengan pendekatan yang inovatif.</p>
-                    <div class="social-icons mt-3">
+                    {{-- <div class="social-icons mt-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4">
+                {{-- <div class="col-lg-2 col-md-6 mb-4">
                     <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Product</h5>
                     <ul class="list-unstyled footer-links">
                         <li class="mb-2"><a href="#">Product 1</a></li>
@@ -92,14 +92,15 @@
                         <li class="mb-2"><a href="#">Project 3</a></li>
                         <li class="mb-2"><a href="#">Project 4</a></li>
                     </ul>
-                </div>
-                <div class="col-lg-4 mb-4">
+                </div> --}}
+                <div class="col-lg-4 mb-4 ms-auto">
                     <h5 class="mb-4" style="color: var(--tertiary-color); font-weight: 700;">Kontak Kami</h5>
                     <p><i class="fas fa-map-marker-alt me-2" style="color: var(--primary-color);"></i> TOKOPEDIA CARE
                         TOWER, Jl. Lkr. Luar Barat No.1 LT. 10, RT.14/RW.4, Rw. Buaya, Kecamatan Cengkareng, Kota
                         Jakarta Barat, Daerah Khusus Ibukota Jakarta 11740</p>
                     <p><i class="fas fa-phone me-2" style="color: var(--primary-color);"></i>(021) 29863888</p>
-                    <p><i class="fas fa-envelope me-2" style="color: var(--primary-color);"></i> info@ciptamedianusa.com
+                    <p><i class="fas fa-envelope me-2" style="color: var(--primary-color);"></i>
+                        helpdesk@ciptamedianusa.net
                     </p>
                 </div>
             </div>
