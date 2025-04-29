@@ -21,6 +21,9 @@
     <!-- Testimonials Section -->
     @include('home.testimoni')
 
+    <!-- Location Section -->
+    @include('home.location')
+
     <!-- CTA Section -->
     @include('footer.cta')
 
