@@ -11,38 +11,38 @@
                 <div class="card project-card h-100">
                     <img src="{{ asset('ciputra-pict/ciputra-scenery-1.png') }}" class="card-img-top" alt="Project 1">
                     <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
-                            consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien
-                            vitae pellentesque.</p>
-                        <span class="badge bg-primary me-1">Newest Project</span>
-                        <span class="badge bg-secondary">Most Favorite</span>
+                        <h5 class="card-title">Ciputra International</h5>
+                        <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
+                            premium, menggabungkan gaya hidup modern dengan lokasi strategis di Jabodetabek. Pilihan
+                            sempurna untuk investasi atau gaya hidup Anda selanjutnya.</p>
+                        <span class="badge bg-primary me-1">Favorite</span>
+                        <span class="badge bg-secondary">Jabodetabek</span>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card project-card h-100">
-                    <img src="{{ asset('ciputra-pict/ciputra-scenery-1.png') }}" class="card-img-top" alt="Project 2">
+                    <img src="{{ asset('ciputra-pict/citra-living.jpg') }}" class="card-img-top" alt="Project 2">
                     <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
-                            consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien
-                            vitae pellentesque.</p>
-                        <span class="badge bg-primary me-1">Most Favorite</span>
-                        <span class="badge bg-secondary">Best Scenery</span>
+                        <h5 class="card-title">Citra Living Apartment</h5>
+                        <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
+                            premium, menggabungkan gaya hidup modern dengan lokasi strategis di Jabodetabek. Pilihan
+                            sempurna untuk investasi atau gaya hidup Anda selanjutnya.</p>
+                        <span class="badge bg-primary me-1">Favorite</span>
+                        <span class="badge bg-secondary">Jabodetabek</span>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card project-card h-100">
-                    <img src="{{ asset('ciputra-pict/ciputra-scenery-1.png') }}" class="card-img-top" alt="Project 3">
+                    <img src="{{ asset('ciputra-pict/bizpark.jpg') }}" class="card-img-top" alt="Project 3">
                     <div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
-                            consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien
-                            vitae pellentesque.</p>
-                        <span class="badge bg-primary me-1">Most Favorite</span>
-                        <span class="badge bg-secondary">Best Scenery</span>
+                        <h5 class="card-title">BizPark Banjarmasin</h5>
+                        <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
+                            premium, menggabungkan gaya hidup modern dengan lokasi strategis di Jabodetabek. Pilihan
+                            sempurna untuk investasi atau gaya hidup Anda selanjutnya.</p>
+                        <span class="badge bg-primary me-1">Favorite</span>
+                        <span class="badge bg-secondary">Luar Jabodetabek</span>
                     </div>
                 </div>
             </div>
