@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{ asset('logo/cmn-logo.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
+                <img src="{{ asset('image/logo/cmn-logo.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
                 CIPTAMEDIANUSA
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

@@ -102,9 +102,9 @@
 
             // Array of images
             const images = [
-                "{{ asset('ciputra-pict/ciputra-scenery-1.png') }}",
-                "{{ asset('ciputra-pict/ciputra-scenery-2.jpeg') }}",
-                "{{ asset('ciputra-pict/ciputra-scenery-3.jpeg') }}",
+                "{{ asset('image/ciputra-pict/ciputra-scenery-1.png') }}",
+                "{{ asset('image/ciputra-pict/ciputra-scenery-2.jpeg') }}",
+                "{{ asset('image/ciputra-pict/ciputra-scenery-3.jpeg') }}",
                 // "{{ asset('ciputra-pict/ciputra-scenery-4.png') }}"
             ];
 

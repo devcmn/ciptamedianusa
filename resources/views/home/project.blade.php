@@ -9,7 +9,8 @@
         <div class="row">
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card project-card h-100">
-                    <img src="{{ asset('ciputra-pict/ciputra-scenery-1.png') }}" class="card-img-top" alt="Project 1">
+                    <img src="{{ asset('image/ciputra-pict/ciputra-scenery-1.png') }}" class="card-img-top"
+                        alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Ciputra International</h5>
                         <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
@@ -22,7 +23,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card project-card h-100">
-                    <img src="{{ asset('ciputra-pict/citra-living.jpg') }}" class="card-img-top" alt="Project 2">
+                    <img src="{{ asset('image/ciputra-pict/citra-living.jpg') }}" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title">Citra Living Apartment</h5>
                         <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
@@ -35,7 +36,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card project-card h-100">
-                    <img src="{{ asset('ciputra-pict/bizpark.jpg') }}" class="card-img-top" alt="Project 3">
+                    <img src="{{ asset('image/ciputra-pict/bizpark.jpg') }}" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title">BizPark Banjarmasin</h5>
                         <p class="card-text text-muted">Ciputra International menawarkan ruang hunian dan komersial
