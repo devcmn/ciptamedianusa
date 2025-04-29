@@ -8,8 +8,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold mb-4">Portfolio Project</h1>
-                    <p class="lead mb-0">Beberapa project terbaik yang telah kami kerjakan untuk klien kami</p>
+                    <h1 class="section-title display-4 fw-bold mb-4">Project Kami</h1>
+                    <p class="lead mb-0">Jelajahi project unggulan dan terpercaya yang berkolaborasi dengan kami.
+                    </p>
                 </div>
             </div>
         </div>
@@ -21,12 +22,10 @@
             <div class="row mb-5">
                 <div class="col-12 text-center">
                     <div class="btn-group" role="group" aria-label="Project filter">
-                        <button type="button" class="btn btn-outline-primary active" data-filter="all">Semua</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="web">Web Development</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="mobile">Mobile Apps</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="ui">UI/UX Design</button>
-                        <button type="button" class="btn btn-outline-primary" data-filter="marketing">Digital
-                            Marketing</button>
+                        <button type="button" class="btn btn-outline-primary active" data-filter="all">All</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="web">Jabodetabek</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="mobile">Luar
+                            Jabodetabek</button>
                     </div>
                 </div>
             </div>
