@@ -10,37 +10,38 @@
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card service-card h-100 p-4 text-center">
                     <div class="service-icon">
-                        <i class="fas fa-laptop-code"></i>
+                        <i class="fa-solid fa-house-signal"></i>
                     </div>
                     <h5 class="card-title">Triple Play</h5>
-                    <p class="card-text">Layanan <strong>Internet, TV & Telepon</strong> sekaligus dalam 1 paket.</p>
+                    <p class="card-text">Layanan Internet, TV & Telepon sekaligus dalam 1 paket.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card service-card h-100 p-4 text-center">
                     <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-briefcase"></i>
                     </div>
-                    <h5 class="card-title">Internet</h5>
-                    <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
+                    <h5 class="card-title">Service</h5>
+                    <p class="card-text">High-speed internet, Secure Phone System, dan Wi-Fi untuk kebutuhan Anda.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card service-card h-100 p-4 text-center">
                     <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
+                        <i class="fa-solid fa-brain"></i>
                     </div>
-                    <h5 class="card-title">TV</h5>
-                    <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
+                    <h5 class="card-title">Smart Life Style</h5>
+                    <p class="card-text">Kontrol otomatis Lampu, AC, TV, dan Curtain untuk kenyamanan Anda.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card service-card h-100 p-4 text-center">
                     <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="fa-solid fa-leaf"></i>
                     </div>
-                    <h5 class="card-title">Telepon</h5>
-                    <p class="card-text">Lorem ipsum dolor siet met lorem dolor siert.</p>
+                    <h5 class="card-title">Smart Green & Socket</h5>
+                    <p class="card-text">Hemat energi dan tingkatkan keamanan dengan smart socket, sensor gerak, dan
+                        detektor gas/asap.</p>
                 </div>
             </div>
         </div>
