@@ -16,7 +16,7 @@
     @include('home.project')
 
     <!-- ISP Section -->
-    @include('home.isp')
+    @include('home.isp.isp')
 
     <!-- Testimonials Section -->
     @include('home.testimoni')
@@ -26,6 +26,20 @@
 
     @push('scripts')
         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const viewMoreBtn = document.querySelector('.view-more-btn');
+                const hiddenLogos = document.querySelector('.mobile-hidden-logos');
+
+                if (viewMoreBtn && hiddenLogos) {
+                    viewMoreBtn.addEventListener('click', function() {
+                        hiddenLogos.style.display = hiddenLogos.style.display === 'block' ? 'none' : 'block';
+                        viewMoreBtn.innerHTML = hiddenLogos.style.display === 'block' ?
+                            'View Less <i class="fas fa-chevron-up ms-1"></i>' :
+                            'View More Partners <i class="fas fa-chevron-down ms-1"></i>';
+                    });
+                }
+            });
+
             $(document).ready(function() {
                 // Initialize Select2 for both dropdowns
                 $("#project-dropdown").select2();
