@@ -1261,7 +1261,7 @@ footer::after {
 
     .lead {
         font-size: 1.1rem;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .form-group label {

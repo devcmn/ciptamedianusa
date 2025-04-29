@@ -22,7 +22,8 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <h5 class="card-title">Service</h5>
-                    <p class="card-text">High-speed internet, Secure Phone System, dan Wi-Fi untuk kebutuhan Anda.</p>
+                    <p class="card-text">High-speed internet, Secure Phone System, CCTV dan Wi-Fi untuk kebutuhan Anda.
+                    </p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">

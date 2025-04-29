@@ -1,8 +1,8 @@
 <section class="range-search py-5">
     <div class="container">
-        <div class="row mb-3">
+        <div class="row mb-2">
             <div class="col-lg-6">
-                <h2 class="section-title">Apakah anda dalam jangkauan kami?</h2>
+                <h2 class="section-title mb-5">Apakah anda dalam jangkauan kami?</h2>
                 <p class="lead">Ayo cek disini!</p>
             </div>
         </div>

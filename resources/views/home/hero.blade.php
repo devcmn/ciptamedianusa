@@ -7,7 +7,7 @@
                     tempat usaha.</p>
                 <div class="d-flex flex-wrap gap-2">
                     <a href="{{ url('/berlanggan') }}" class="btn btn-primary px-4 py-2">
-                        <i class="fas fa-user-plus me-2"></i> Berlanggan Sekarang
+                        <i class="fas fa-user-plus me-2"></i> Berlanggan
                     </a>
                     <a href="{{ url('/product') }}" class="btn btn-outline-primary px-4 py-2">Produk Kami</a>
                 </div>
