@@ -11,6 +11,20 @@
     border-color: var(--bs-primary);
 }
 
+.btn-primary:active {
+    background: var(--primary-hover) !important;
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-outline-primary:active {
+    background: var(--primary-hover) !important;
+    border-color: transparent !important;
+    color: white;
+    transform: translateY(0);
+    box-shadow: none;
+}
+
 .btn-primary:hover {
     background: var(--primary-hover);
     transform: translateY(-2px);
