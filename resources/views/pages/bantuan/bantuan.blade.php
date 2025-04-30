@@ -18,7 +18,7 @@
         <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <div class="card border-0 shadow">
+                    <div class="card border-0 shadow-sm bg-white-rounded">
                         <div class="card-body p-5">
                             <div class="col-lg-8 mx-auto text-center">
                                 <h2 class="card-title text-center">Kirim Pesan</h2>
