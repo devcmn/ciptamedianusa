@@ -5,6 +5,7 @@
 @import url("location.css");
 @import url("navbar.css");
 @import url("responsive.css");
+@import url("project.css");
 
 :root {
     --bs-primary: #ff7e33;
