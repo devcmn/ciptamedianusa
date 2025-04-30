@@ -4,28 +4,28 @@
 
 @section('content')
     <!-- Hero Section -->
-    @include('home.hero')
+    @include('pages.home.hero')
 
     <!-- Product Preview Section -->
-    @include('home.product')
+    @include('pages.home.product')
 
     <!-- In ranger search Section -->
-    @include('home.range-search')
+    @include('pages.home.range-search')
 
     <!-- Projects Preview Section -->
-    @include('home.project')
+    @include('pages.home.project')
 
     <!-- ISP Section -->
-    @include('home.isp.isp')
+    @include('pages.home.isp.isp')
 
     <!-- Testimonials Section -->
-    @include('home.testimoni')
+    @include('pages.home.testimoni')
 
     <!-- Location Section -->
-    @include('home.location')
+    @include('pages.home.location')
 
     <!-- CTA Section -->
-    @include('footer.cta')
+    @include('pages.footer.cta')
 
     @push('scripts')
         <script>

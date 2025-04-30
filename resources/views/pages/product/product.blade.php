@@ -118,8 +118,8 @@
     </section>
 
     <!-- Pricing Section -->
-    {{-- @include('product.pricing') --}}
+    {{-- @include('pages.product.pricing') --}}
 
     <!-- CTA Section -->
-    @include('footer.cta')
+    @include('pages.footer.cta')
 @endsection

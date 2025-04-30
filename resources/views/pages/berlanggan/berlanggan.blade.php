@@ -176,7 +176,7 @@
     </section>
 
     <!-- FAQ Section -->
-    {{-- @include('berlanggan.faq') --}}
+    {{-- @include('pages.berlanggan.faq') --}}
 
     <!-- Subscribe Modal -->
     <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">

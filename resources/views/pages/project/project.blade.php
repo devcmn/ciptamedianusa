@@ -244,7 +244,7 @@
     <!-- Additional Project Modals (3-6) would be similar to the above -->
 
     <!-- CTA Section -->
-    @include('footer.cta')
+    @include('pages.footer.cta')
 
     <!-- JavaScript for Project Filtering -->
     <script>

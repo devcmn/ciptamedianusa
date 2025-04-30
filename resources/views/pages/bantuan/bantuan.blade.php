@@ -117,7 +117,7 @@
     </section>
 
     <!-- FAQ Section -->
-    {{-- @include('bantuan.faq') --}}
+    {{-- @include('pages.bantuan.faq') --}}
 
     <!-- Map Section -->
     {{-- <section class="py-5">
@@ -141,5 +141,5 @@
     </section> --}}
 
     <!-- CTA Section -->
-    @include('footer.cta')
+    @include('pages.footer.cta')
 @endsection

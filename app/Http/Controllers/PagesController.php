@@ -14,26 +14,26 @@ class PagesController extends Controller
         $responseCluster = Http::get('https://cmn.co.id/api/cluster');
         $clusters = $responseCluster->json();
 
-        return view('pages.home', compact('projects', 'clusters'));
+        return view('pages.home.home', compact('projects', 'clusters'));
     }
 
     public function project()
     {
-        return view('pages.project');
+        return view('pages.project.project');
     }
 
     public function product()
     {
-        return view('pages.product');
+        return view('pages.product.product');
     }
 
     public function berlanggan()
     {
-        return view('pages.berlanggan');
+        return view('pages.berlanggan.berlanggan');
     }
 
     public function bantuan()
     {
-        return view('pages.bantuan');
+        return view('pages.bantuan.bantuan');
     }
 }
