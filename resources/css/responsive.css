@@ -1,0 +1,101 @@
+/* RESPONSIVE ADJUSTMENTS */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 1.75rem;
+    }
+
+    .section-title:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-logo {
+        height: 24px;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+        /* text-align: center; */
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        height: 45px;
+        font-size: 0.95rem;
+    }
+
+    .subscribe-btn {
+        padding: 10px 25px;
+        font-size: 0.95rem;
+    }
+
+    .error-code {
+        font-size: 100px;
+    }
+
+    .error-code::after {
+        font-size: 100px;
+    }
+
+    .error-title {
+        font-size: 24px;
+    }
+
+    .error-message {
+        font-size: 16px;
+    }
+    .marquee-item {
+        min-width: 150px;
+        height: 80px;
+        padding: 0.75rem;
+    }
+
+    .marquee-item img {
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .error-code {
+        font-size: 80px;
+    }
+
+    .error-code::after {
+        font-size: 80px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .map-card,
+    .map-container {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .location-section {
+        padding: 60px 0;
+    }
+
+    .map-card,
+    .map-container {
+        min-height: 300px;
+    }
+
+    .info-title {
+        font-size: 1.5rem;
+    }
+}
