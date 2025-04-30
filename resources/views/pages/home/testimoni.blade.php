@@ -15,13 +15,13 @@
                                 alt="Client 1">
                         </div>
                         <div>
-                            <h5 class="mb-0">Shin Ryujin</h5>
-                            <p class="text-muted mb-0">CEO, PT Maju Maju</p>
+                            <h5 class="mb-0">Andi Maspin</h5>
+                            <p class="text-muted mb-0">Customer</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted">"Ciptamedianusa telah membantu kami mengembangkan kebutuhan internet
-                        yang sangat meningkatkan kepuasan lokasi kami. Layanan mereka sangat profesional dan tepat
-                        waktu."
+                    <p class="card-text text-muted">"Dulu saya malas melapor kalau ada masalah internet. Tapi kemarin,
+                        respon terhadap laporan saya sangat cepat, komunikasi CS-nya juga ramah, dan penanganannya pun
+                        sigap."
                     </p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
@@ -40,19 +40,19 @@
                                 alt="Client 2">
                         </div>
                         <div>
-                            <h5 class="mb-0">Go Youn Jung</h5>
-                            <p class="text-muted mb-0">Marketing Director, Brand Fashion</p>
+                            <h5 class="mb-0">Elsa Manalu</h5>
+                            <p class="text-muted mb-0">Customer</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted">"Strategi digital marketing yang dirancang oleh tim Ciptamedianusa
-                        sangat
-                        efektif dalam meningkatkan kebutuhan digital kami. Sangat merekomendasikan layanan mereka!"</p>
+                    <p class="card-text text-muted">"Terima kasih, pelayanannya sangat memuaskan. Jaringan apartemen
+                        Vidaview Makassar selalu terjaga. Teknisi juga responsif dan cepat tanggap jika ada masalah."
+                    </p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </div>
@@ -64,13 +64,13 @@
                                 alt="Client 3">
                         </div>
                         <div>
-                            <h5 class="mb-0">Baek Song Min</h5>
-                            <p class="text-muted mb-0">Owner, Restoran Nusantara</p>
+                            <h5 class="mb-0">Mahardhika Rohimma Islamy</h5>
+                            <p class="text-muted mb-0">Customer</p>
                         </div>
                     </div>
-                    <p class="card-text text-muted">"Strategi digital marketing yang dirancang oleh tim Ciptamedianusa
-                        sangat
-                        efektif dalam meningkatkan kebutuhan digital kami. Sangat merekomendasikan layanan mereka!"</p>
+                    <p class="card-text text-muted">"Kemarin saya melaporkan bahwa ada masalah dengan internet, dan
+                        setelah melapor, layanan CS serta teknisinya cepat merespon... Semoga kecepatan seperti itu bisa
+                        terus terjaga, dan tetap pertahankan keramahan juga ya"</p>
                     <div class="text-warning">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
