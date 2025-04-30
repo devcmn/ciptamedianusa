@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BantuanController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +21,9 @@ Route::get('/product', [PagesController::class, 'product']);
 Route::get('/project', [PagesController::class, 'project']);
 Route::get('/berlanggan', [PagesController::class, 'berlanggan']);
 Route::get('/bantuan', [PagesController::class, 'bantuan']);
+
+Route::post('/berlanggan/create', [SubscriptionController::class, 'store'])->name('berlanggan.store');
+Route::post('/bantuan/create', [BantuanController::class, 'store'])->name('bantuan.store');
 
 
 Route::fallback(function () {

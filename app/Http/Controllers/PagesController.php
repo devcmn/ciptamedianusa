@@ -29,7 +29,9 @@ class PagesController extends Controller
 
     public function berlanggan()
     {
-        return view('pages.berlanggan.berlanggan');
+        $responseProject = Http::get('https://cmn.co.id/api/project');
+        $projects = $responseProject->json();
+        return view('pages.berlanggan.berlanggan', compact('projects'));
     }
 
     public function bantuan()

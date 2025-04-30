@@ -27,32 +27,60 @@
                             <form>
                                 <div class="row mb-3">
                                     <div class="col-md-6 mb-3 mb-md-0">
-                                        <label for="name" class="form-label">Nama Lengkap</label>
-                                        <input type="text" class="form-control" id="name"
-                                            placeholder="Masukkan nama lengkap">
+                                        <label for="id_cmn" class="form-label">
+                                            ID CMN <span class="text-danger">*</span>
+                                        </label>
+                                        <input type="text" class="form-control" id="id_cmn" name="id_cmn"
+                                            placeholder="Masukkan ID CMN" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email"
-                                            placeholder="Masukkan email">
+                                        <label for="nama" class="form-label">
+                                            Nama <span class="text-danger">*</span>
+                                        </label>
+                                        <input type="text" class="form-control" id="nama" name="nama"
+                                            placeholder="Masukkan nama lengkap" required>
                                     </div>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="subject" class="form-label">Subjek</label>
-                                    <input type="text" class="form-control" id="subject"
-                                        placeholder="Masukkan subjek pesan">
+                                    <label for="no_telp" class="form-label">
+                                        Nomor Telepon <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="no_telp" name="no_telp"
+                                        placeholder="Masukkan nomor telepon" required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="message" class="form-label">Pesan</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Tulis pesan Anda di sini"></textarea>
+                                    <label for="email" class="form-label">
+                                        Email <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Masukkan alamat email" required>
                                 </div>
 
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="privacy">
-                                    <label class="form-check-label" for="privacy">Saya menyetujui <a
-                                            href="#">kebijakan privasi</a> yang berlaku</label>
+                                <div class="mb-3">
+                                    <label for="kategori" class="form-label">
+                                        Kategori <span class="text-danger">*</span>
+                                    </label>
+                                    <select id="kategori" name="kategori" class="form-select select2" required>
+                                        <option disabled selected value="">Pilih Kategori</option>
+                                        <option value="Informasi - Downgrade/Upgrade">Informasi - Downgrade/Upgrade</option>
+                                        <option value="Informasi - Berhenti Berlangganan">Informasi - Berhenti Berlangganan
+                                        </option>
+                                        <option value="Teknis - Gangguan TV">Teknis - Gangguan TV</option>
+                                        <option value="Teknis - Gangguan Internet">Teknis - Gangguan Internet</option>
+                                        <option value="Teknis - Gangguan Telepon">Teknis - Gangguan Telepon</option>
+                                        <option value="Billing - Invoice Kategori">Billing - Invoice Kategori</option>
+                                        <option value="Billing - Pembayaran">Billing - Pembayaran</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="pesan" class="form-label">
+                                        Pesan <span class="text-danger">*</span>
+                                    </label>
+                                    <textarea class="form-control" id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini"
+                                        required></textarea>
                                 </div>
 
                                 <div class="text-center">
@@ -68,4 +96,11 @@
 
     <!-- CTA Section -->
     @include('pages.footer.cta')
+    @push('scripts')
+        <script>
+            $(document).ready(function() {
+                $('#kategori').select2();
+            });
+        </script>
+    @endpush
 @endsection
