@@ -24,7 +24,21 @@
                                 <h2 class="card-title text-center">Kirim Pesan</h2>
                                 <p class="text-center mb-4">Isi form di bawah ini untuk mengirim pesan kepada kami</p>
                             </div>
-                            <form>
+                            @if (session('success'))
+                                <div class="alert alert-success">{{ session('success') }}</div>
+                            @endif
+
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul class="mb-0">
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            <form method="POST" action="{{ route('bantuan.store') }}">
+                                @csrf
                                 <div class="row mb-3">
                                     <div class="col-md-6 mb-3 mb-md-0">
                                         <label for="id_cmn" class="form-label">

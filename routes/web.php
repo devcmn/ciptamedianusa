@@ -19,8 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PagesController::class, 'home']);
 Route::get('/product', [PagesController::class, 'product']);
 Route::get('/project', [PagesController::class, 'project']);
-Route::get('/berlanggan', [PagesController::class, 'berlanggan']);
-Route::get('/bantuan', [PagesController::class, 'bantuan']);
+Route::get('/berlanggan', [PagesController::class, 'berlanggan'])->name('berlanggan');
+Route::get('/bantuan', [PagesController::class, 'bantuan'])->name('bantuan');
 
 Route::post('/berlanggan/create', [SubscriptionController::class, 'store'])->name('berlanggan.store');
 Route::post('/bantuan/create', [BantuanController::class, 'store'])->name('bantuan.store');

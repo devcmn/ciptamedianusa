@@ -9,12 +9,15 @@ class SubscriptionController extends Controller
 {
     public function store(Request $request)
     {
-
-        dd($request->all());
+        // dd($request->all());
         $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|unique:subscriptions,email',
-            'package' => 'required|string',
+            'nama' => 'required|string|max:255',
+            'no_ktp' => 'required|string|max:50',
+            'email' => 'required|email',
+            'no_telp' => 'required',
+            'project' => 'required',
+            'layanan' => 'required',
+            'alamat' => 'required',
         ]);
 
         $response = Http::post('https://cmn.co.id/api/subscribe', $validated);
@@ -23,6 +26,6 @@ class SubscriptionController extends Controller
             return redirect()->route('berlanggan')->with('success', 'Subscription successful!');
         }
 
-        return redirect()->back()->withErrors('Subscription failed.');
+        return redirect()->back()->withErrors(['Subscription failed.']);
     }
 }
