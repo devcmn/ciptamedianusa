@@ -20,7 +20,7 @@
                 <div class="col-lg-8 mx-auto">
                     <div class="card border-0 shadow-sm bg-white-rounded">
                         <div class="card-body p-5">
-                            <h3 class="card-title text-center mb-4">Form Berlangganan</h3>
+                            <h3 class="card-title text-center mb-4">Form Berlangganansss</h3>
                             <p class="text-center mb-4">Isi form di bawah ini untuk berlangganan layanan kami atau
                                 konsultasikan kebutuhan khusus Anda</p>
                             @if (session('success'))
