@@ -210,7 +210,7 @@
         <p class="error-message">Maaf, halaman yang Anda cari tidak dapat ditemukan. Halaman mungkin telah dipindahkan
             atau dihapus.</p>
 
-        <a href="/" class="btn-home">
+        <a href="/home" class="btn-home">
             <i class="fas fa-home"></i> Kembali ke Beranda
         </a>
     </div>

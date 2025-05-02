@@ -21,7 +21,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ url('/home') }}">
                 <img src="{{ asset('image/logo/cmn-logo.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
                 CIPTAMEDIANUSA
             </a>
@@ -32,7 +32,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link {{ request()->is('home') ? 'active' : '' }}"
+                            href="{{ url('/home') }}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('product') ? 'active' : '' }}"

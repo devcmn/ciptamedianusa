@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PagesController::class, 'home']);
+Route::get('/home', [PagesController::class, 'home'])->name('home');
 Route::get('/product', [PagesController::class, 'product']);
 Route::get('/project', [PagesController::class, 'project']);
 Route::get('/berlanggan', [PagesController::class, 'berlanggan'])->name('berlanggan');
@@ -27,5 +27,9 @@ Route::post('/bantuan/create', [BantuanController::class, 'store'])->name('bantu
 
 
 Route::fallback(function () {
-    return response()->view('errors.404', [], 404);
+    return response()->view('pages.errors.404', [], 404);
 });
+
+Route::get('/', function () {
+    return redirect()->route('home');
+})->name('root');
