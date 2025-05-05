@@ -73,6 +73,14 @@
                                 </div>
 
                                 <div class="mb-3">
+                                    <label for="alamat" class="form-label">
+                                        Alamat <span class="text-danger">*</span>
+                                    </label>
+                                    <textarea class="form-control" id="alamat" name="alamat" rows="5" placeholder="Tulis alamat Anda di sini"
+                                        required></textarea>
+                                </div>
+
+                                <div class="mb-3">
                                     <label for="kategori" class="form-label">
                                         Kategori <span class="text-danger">*</span>
                                     </label>

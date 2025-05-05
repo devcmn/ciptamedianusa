@@ -15,11 +15,12 @@ class BantuanController extends Controller
             'nama' => 'required',
             'no_telp' => 'required',
             'email' => 'required',
+            'alamat' => 'required',
             'kategori' => 'required',
             'pesan' => 'required',
         ]);
 
-        $response = Http::post('https://cmn.co.id/api/bantuan', $validated);
+        $response = Http::post('http://127.0.0.1:8000/api/bantuan', $validated);
 
         if ($response->successful()) {
             return redirect()->route('bantuan')->with('success', 'Bantuan berhasil terkirim!');
