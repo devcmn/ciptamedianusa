@@ -42,10 +42,10 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6 mb-3 mb-md-0">
                                         <label for="id_cmn" class="form-label">
-                                            ID CMN <span class="text-danger">*</span>
+                                            ID CMN
                                         </label>
                                         <input type="text" class="form-control" id="id_cmn" name="id_cmn"
-                                            placeholder="Masukkan ID CMN" required>
+                                            placeholder="Masukkan ID CMN">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="nama" class="form-label">

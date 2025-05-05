@@ -11,7 +11,6 @@ class BantuanController extends Controller
     {
         // dd($request->all());
         $validated = $request->validate([
-            'id_cmn' => 'required',
             'nama' => 'required',
             'no_telp' => 'required',
             'email' => 'required',
@@ -20,7 +19,12 @@ class BantuanController extends Controller
             'pesan' => 'required',
         ]);
 
-        $response = Http::post('https://cmn.co.id/api/bantuan', $validated);
+        $payload = array_merge($validated, [
+            'id_cmn' => $request->input('id_cmn'),
+        ]);
+
+        $response = Http::post('https://cmn.co.id/api/bantuan', $payload);
+        // $response = Http::post('http://127.0.0.1:8000/api/bantuan', $payload);
 
         if ($response->successful()) {
             return redirect()->route('bantuan')->with('success', 'Bantuan berhasil terkirim!');
