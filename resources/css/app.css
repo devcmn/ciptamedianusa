@@ -33,6 +33,7 @@ html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--primary-color) var(--light-color);
+    overflow-x: hidden;
 }
 
 body {
