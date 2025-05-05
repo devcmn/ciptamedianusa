@@ -11,8 +11,8 @@ class SubscriptionController extends Controller
     {
         // dd($request->all());
         $validated = $request->validate([
-            'nama' => 'required|string|max:255',
-            'no_ktp' => 'required|string|max:50',
+            'nama' => 'required',
+            'no_ktp' => 'required',
             'email' => 'required|email',
             'no_telp' => 'required',
             'project' => 'required',
@@ -21,6 +21,7 @@ class SubscriptionController extends Controller
         ]);
 
         $response = Http::post('https://cmn.co.id/api/subscribe', $validated);
+        // $response = Http::post('http://127.0.0.1:8001/api/subscribe', $validated);
 
         if ($response->successful()) {
             return redirect()->route('berlanggan')->with('success', 'Subscription successful!');

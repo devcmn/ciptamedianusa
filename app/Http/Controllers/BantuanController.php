@@ -11,12 +11,12 @@ class BantuanController extends Controller
     {
         // dd($request->all());
         $validated = $request->validate([
-            'id_cmn' => 'required|string',
-            'nama' => 'required|string',
-            'no_telp' => 'required|string',
-            'email' => 'required|email',
-            'kategori' => 'required|string',
-            'pesan' => 'required|string',
+            'id_cmn' => 'required',
+            'nama' => 'required',
+            'no_telp' => 'required',
+            'email' => 'required',
+            'kategori' => 'required',
+            'pesan' => 'required',
         ]);
 
         $response = Http::post('https://cmn.co.id/api/bantuan', $validated);

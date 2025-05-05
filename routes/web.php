@@ -25,6 +25,12 @@ Route::get('/bantuan', [PagesController::class, 'bantuan'])->name('bantuan');
 Route::post('/berlanggan/create', [SubscriptionController::class, 'store'])->name('berlanggan.store');
 Route::post('/bantuan/create', [BantuanController::class, 'store'])->name('bantuan.store');
 
+Route::get('/debug-csrf', function () {
+    return [
+        'token_in_session' => session()->token(),
+        'token_in_request' => request()->ajax() ? request()->header('X-CSRF-TOKEN') : request()->input('_token'),
+    ];
+});
 
 Route::fallback(function () {
     return response()->view('pages.errors.404', [], 404);
