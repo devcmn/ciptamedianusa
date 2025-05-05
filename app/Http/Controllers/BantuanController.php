@@ -20,7 +20,7 @@ class BantuanController extends Controller
             'pesan' => 'required',
         ]);
 
-        $response = Http::post('http://127.0.0.1:8000/api/bantuan', $validated);
+        $response = Http::post('https://cmn.co.id/api/bantuan', $validated);
 
         if ($response->successful()) {
             return redirect()->route('bantuan')->with('success', 'Bantuan berhasil terkirim!');
