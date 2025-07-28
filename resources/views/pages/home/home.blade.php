@@ -95,8 +95,7 @@
                     }
                 });
 
-                // Store clusters globally for filtering
-                var clusters = @json($clusters); // Pass the clusters data from Blade to JavaScript
+                var clusters = Object.values(@json($clusters));
             });
 
 
