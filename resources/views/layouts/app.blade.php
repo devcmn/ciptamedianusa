@@ -71,30 +71,28 @@
                     <p>Menyediakan solusi digital terbaik untuk kebutuhan rumah dan bisnis Anda. Kami berkomitmen untuk
                         memberikan
                         layanan berkualitas tinggi dengan pendekatan yang inovatif.</p>
+
+                    <!-- Member of section -->
+                    <div class="member-section mt-4">
+                        <h6 class="mb-3" style="color: var(--secondary-color); font-weight: 600;">We Are Member of
+                        </h6>
+                        <div
+                            class="member-logos d-flex flex-wrap align-items-center justify-content-start justify-content-sm-start gap-3">
+                            <img src="{{ asset('image/member-pict/apjii-logo-white.png') }}" alt="APJII Member"
+                                class="member-logo"
+                                style="max-height: 40px; max-width: 120px; width: auto; height: auto; opacity: 0.8; object-fit: contain;">
+                            <img src="{{ asset('image/member-pict/apjatel-logo-web-dark.png') }}" alt="APJATEL Member"
+                                class="member-logo"
+                                style="max-height: 40px; max-width: 120px; width: auto; height: auto; opacity: 0.8; object-fit: contain;">
+                        </div>
+                    </div>
+
                     {{-- <div class="social-icons mt-3">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div> --}}
-                </div>
-                {{-- <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Product</h5>
-                    <ul class="list-unstyled footer-links">
-                        <li class="mb-2"><a href="#">Product 1</a></li>
-                        <li class="mb-2"><a href="#">Product 2</a></li>
-                        <li class="mb-2"><a href="#">Product 3</a></li>
-                        <li class="mb-2"><a href="#">Product 4</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4">
-                    <h5 class="mb-4" style="color: var(--secondary-color); font-weight: 700;">Project</h5>
-                    <ul class="list-unstyled footer-links">
-                        <li class="mb-2"><a href="#">Project 1</a></li>
-                        <li class="mb-2"><a href="#">Project 2</a></li>
-                        <li class="mb-2"><a href="#">Project 3</a></li>
-                        <li class="mb-2"><a href="#">Project 4</a></li>
-                    </ul>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div> --}}
+                </div>
                 <div class="col-lg-4 mb-4 ms-auto">
                     <h5 class="mb-4" style="color: var(--tertiary-color); font-weight: 700;">Kontak Kami</h5>
                     <p><i class="fas fa-map-marker-alt me-2" style="color: var(--primary-color);"></i> TOKOPEDIA CARE
@@ -114,10 +112,6 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <p class="mb-0">
-                        {{-- <a href="#" class="text-white me-3"
-                            style="text-decoration: none; transition: all 0.3s ease;">Privacy Policy</a>
-                        <a href="#" class="text-white"
-                            style="text-decoration: none; transition: all 0.3s ease;">Terms of Service</a> --}}
                     </p>
                 </div>
             </div>
