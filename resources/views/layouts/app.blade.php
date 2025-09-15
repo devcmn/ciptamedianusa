@@ -23,8 +23,7 @@
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/home') }}">
-                <img src="{{ asset('image/logo/cmn-logo.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
-                CIPTAMEDIANUSA
+                <img src="{{ asset('image/logo/logo-cmn-full.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +66,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-4">
-                    <h5 class="mb-4" style="color: var(--primary-color); font-weight: 700;">CIPTAMEDIANUSA</h5>
+                    <img src="{{ asset('image/logo/logo-ciptakom-full.png') }}" alt="Ciptakom Logo" class="member-logo"
+                        style="max-height: 40px; max-width: 340px; width: auto; height: auto; opacity: 0.8; object-fit: contain; margin-bottom: 20px; filter: brightness(0) invert(1);">
                     <p>Menyediakan solusi digital terbaik untuk kebutuhan rumah dan bisnis Anda. Kami berkomitmen untuk
                         memberikan
                         layanan berkualitas tinggi dengan pendekatan yang inovatif.</p>
