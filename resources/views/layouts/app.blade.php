@@ -23,7 +23,8 @@
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/home') }}">
-                <img src="{{ asset('image/logo/logo-cmn-full.png') }}" alt="Ciptamedianusa Logo" class="navbar-logo">
+                <img src="{{ asset('image/logo/logo-ciptakom-full.png') }}" alt="Ciptamedianusa Logo"
+                    class="navbar-logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
