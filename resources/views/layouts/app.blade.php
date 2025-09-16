@@ -24,7 +24,7 @@
         <div class="container">
             <a class="navbar-brand" href="{{ url('/home') }}">
                 <img src="{{ asset('image/logo/logo-ciptakom-full.png') }}" alt="Ciptamedianusa Logo"
-                    class="navbar-logo">
+                    class="navbar-logo" style="height: 24px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
