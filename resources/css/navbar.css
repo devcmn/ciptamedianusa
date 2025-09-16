@@ -15,7 +15,7 @@
 }
 
 .navbar-logo {
-    height: 24px;
+    height: 24px !important;
     width: auto;
     vertical-align: middle;
     filter: none;
